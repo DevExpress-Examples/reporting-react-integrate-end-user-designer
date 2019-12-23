@@ -1,4 +1,4 @@
-# How to use the End-User Web Report Designer in JavaScript with React Framework
+# How to use the End-User Web Report Designer in JavaScript with React Library
 
 This example consists of two parts: 
 
