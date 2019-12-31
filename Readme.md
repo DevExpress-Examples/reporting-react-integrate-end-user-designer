@@ -1,4 +1,4 @@
-# How to use the End-User Web Report Designer in JavaScript with React Library
+# How to Use the Report Designer in JavaScript with React Library and Npm Package Manager
 
 This example consists of two parts: 
 
@@ -24,3 +24,6 @@ Perform the following steps to run this example:
 
 For a step-by-step tutorial, refer to the
 [Report Designer Integration in React](https://docs.devexpress.com/XtraReports/119339) topic.
+
+<b>See also:</b>
+* [How to Use the Document Viewer in JavaScript with React Library and Npm Package Manager](https://github.com/DevExpress-Examples/reporting-document-viewer-in-javascript-with-react).
