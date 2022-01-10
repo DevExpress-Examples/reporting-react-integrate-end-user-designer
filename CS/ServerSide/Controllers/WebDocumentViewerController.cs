@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace ServerSide.Controllers
 {
-    public class WebDocumentViewerController : WebDocumentViewerApiControllerBase
+    public class WebDocumentViewerController : WebDocumentViewerApiController
     {
         //
         // GET: /WebDocumentViewer/
