@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@devexpress/analytics-core": "21.2-next",
+    "@devexpress/analytics-core": "^21.2.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
-    "devexpress-reporting": "21.2-next",
-    "devextreme": "21.2-next",
+    "devexpress-reporting": "^21.2.3",
+    "devextreme": "^21.2.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "^3.4.0"
