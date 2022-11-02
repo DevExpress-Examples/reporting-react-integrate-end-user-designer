@@ -27,10 +27,14 @@ Perform the following steps to run this example:
 
 ![](images/screenshot.png)
 
+## Files to Review
+
+- [App.js](JS\react-report-designer\src\App.js)
+
 ## Documentation
 
-- [Report Designer Integration in React](https://docs.devexpress.com/XtraReports/119339) topic.
+- [Report Designer Integration in React](https://docs.devexpress.com/XtraReports/119339)
 
 ## More Examples
 
-- [How to Use the Document Viewer in JavaScript with React Library and Npm Package Manager](https://github.com/DevExpress-Examples/reporting-document-viewer-in-javascript-with-react).
+- [Reporting for Web (React) - Document Viewer](https://github.com/DevExpress-Examples/reporting-document-viewer-in-javascript-with-react).
