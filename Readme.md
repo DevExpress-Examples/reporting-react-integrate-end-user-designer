@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848271)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to Use the Report Designer in JavaScript with React Library and Npm Package Manager
+# Reporting for Web (React) - Report Designer
 
 This example consists of two parts: 
 
@@ -27,8 +27,10 @@ Perform the following steps to run this example:
 
 ![](images/screenshot.png)
 
-For a step-by-step tutorial, refer to the
-[Report Designer Integration in React](https://docs.devexpress.com/XtraReports/119339) topic.
+## Documentation
 
-<b>See also:</b>
-* [How to Use the Document Viewer in JavaScript with React Library and Npm Package Manager](https://github.com/DevExpress-Examples/reporting-document-viewer-in-javascript-with-react).
+- [Report Designer Integration in React](https://docs.devexpress.com/XtraReports/119339) topic.
+
+## More Examples
+
+- [How to Use the Document Viewer in JavaScript with React Library and Npm Package Manager](https://github.com/DevExpress-Examples/reporting-document-viewer-in-javascript-with-react).
