@@ -23,7 +23,7 @@ Perform the following steps to run this example:
 
     ```npm start```
 
-5. The client application opens the browser at http://localhost:3000/. It displays the **Report Designer** with the **TestReport** report.
+5. The client application opens the browser at `http://localhost:3000/`. It displays the **Report Designer** with the **TestReport** report.
 
     ![](images/screenshot.png)
 
