@@ -1,10 +1,6 @@
-<!-- default badges list -->
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848271)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # Reporting for Web (React) - Report Designer
 
-This example consists of two parts: 
+This example consists of two parts:
 
 - A server (back-end) ASP.NET Core project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
 
@@ -24,11 +20,11 @@ Perform the following steps to run this example:
 
 5. The client application opens the browser at http://localhost:3000/. It displays the **Report Designer** with the **TestReport** report.
 
-![](images/screenshot.png)
+    ![](images/screenshot.png)
 
 ## Files to Review
 
-- [App.js](JS/react-report-designer/src/App.js)
+- [App.js](JS\react-report-designer\src\App.js)
 
 ## Documentation
 

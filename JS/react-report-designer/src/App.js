@@ -1,35 +1,27 @@
-import React from 'react';
-import ko from 'knockout';
-import 'devexpress-reporting/dx-reportdesigner';
 import './App.css';
+import { useEffect, useRef } from 'react';
+import { DxReportDesigner } from 'devexpress-reporting/dx-reportdesigner';
+import * as ko from 'knockout';
 
-class ReportDesigner extends React.Component {
-  constructor(props) {
-    super(props);
-    this.reportUrl = ko.observable("TestReport");
-    this.requestOptions = {
-      host: "http://localhost:54114/",
-      getDesignerModelAction: "DXXRD/GetDesignerModel"
-    };
-  }
-  render() {
-    return (<div ref="designer" data-bind="dxReportDesigner: $data"></div>);
-  }
-  componentDidMount() {
-    ko.applyBindings({
-      reportUrl: this.reportUrl,
-      requestOptions: this.requestOptions
-    }, this.refs.designer);
-  }
-  componentWillUnmount() {
-    ko.cleanNode(this.refs.designer);
-  }
-};
+const ReportDesigner = () => {
+  const reportUrl = ko.observable("TestReport");
+  const designerRef = useRef();
+  const requestOptions = {
+    host: "https://localhost:54114/",
+    getDesignerModelAction: "DXXRD/GetDesignerModel"
+  };
+  useEffect(() => {
+    const designer = new DxReportDesigner(designerRef.current, { reportUrl, requestOptions });
+    designer.render(); 
+    return () => designer.dispose();
+  })
+  return (<div ref={designerRef}></div>);
+}
 
 function App() {
   return (<div style={{ width: "100%", height: "1000px" }}>
-    <ReportDesigner />
+      <ReportDesigner />
   </div>);
-}
+  }
 
 export default App;
