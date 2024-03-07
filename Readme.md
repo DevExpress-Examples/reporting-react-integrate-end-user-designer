@@ -3,18 +3,18 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848271)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Reporting for Web (React) - Report Designer
+# Reporting for React - How to Integrate the Report Designer in React App
 
-This example consists of two parts:
+This example shows how to incorporate the Web Report Designer into a client-side app built with React. The example consists of two parts:
 
 - A server (back-end) ASP.NET Core project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
 
-- A React JavaScript Library front-end client application.
+- A React front-end client application.
 
 Perform the following steps to run this example:
 
-1. Open the back-end project solution (**CS\ServerSideApp.sln**) in Visual Studio and run the project.
-2. Navigate to the **JS\react-report-designer** folder that is the client part's root folder.
+1. Open the back-end project solution (**ServerSideApp.sln**) in Visual Studio and run the project.
+2. Navigate to the **react-report-designer** folder that is the client part's root folder.
 3. Open the console and run the following command:
 
     ```npm install```
