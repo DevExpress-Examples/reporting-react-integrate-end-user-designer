@@ -9,7 +9,7 @@ This example consists of two parts: 
 
 - A server (back-end) ASP.NET MVC project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
 
-- A <a href="https://reactjs.org/">React JavaScript Library</a> front-end client application.
+- A <a href="https://react.dev/">React JavaScript Library</a> front-end client application.
 
 Perform the following steps to run this example:
 
