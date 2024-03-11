@@ -13,8 +13,8 @@ This example shows how to incorporate the Web Report Designer into a client-side
 
 Perform the following steps to run this example:
 
-1. Open the back-end project solution (**ServerSideApp.sln**) in Visual Studio and run the project.
-2. Navigate to the **react-report-designer** folder that is the client part's root folder.
+1. Open the back-end project solution (*ServerSideApp/ServerSideApp.sln*) in Visual Studio and run the project.
+2. Navigate to the *react-report-designer* folder that is the client part's root folder.
 3. Open the console and run the following command:
 
     ```npm install```
@@ -25,11 +25,14 @@ Perform the following steps to run this example:
 
 5. The client application opens the browser at http://localhost:3000/. It displays the **Report Designer** with the **TestReport** report.
 
-    ![](Images/screenshot.png)
+> [!TIP]
+> Make sure that the backend application runs on the port specified in the host setting of the Report Designer component. For more information, refer to the following help topic: [Determine the Host URL](https://docs.devexpress.com/XtraReports/400196/web-reporting/asp-net-core-reporting/server-side-configuration/report-designer-server-side-configuration-asp-net-core#step-3-determine-the-host-url).
+
+![](Images/screenshot.png)
 
 ## Files to Review
 
-- [App.js](JS/react-report-designer/src/App.js)
+- [App.js](react-report-designer/src/App.js)
 
 ## Documentation
 
