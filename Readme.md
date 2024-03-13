@@ -29,7 +29,7 @@ Perform the following steps to run this example:
 
 ## Files to Review
 
-- [App.js](JS\react-report-designer\src\App.js)
+- [App.js](JS/react-report-designer/src/App.js)
 
 ## Documentation
 
