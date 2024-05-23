@@ -11,12 +11,11 @@ import '@devexpress/analytics-core/dist/css/dx-querybuilder.css';
 import 'devexpress-reporting/dist/css/dx-reportdesigner.css';
 
 function App() {
-
-return (
-  <ReportDesigner reportUrl="TestReport">
-    <RequestSettings host="http://localhost:5000/" getDesignerModelAction="DXXRD/GetDesignerModel" />
-  </ReportDesigner>       
-)
+  return (
+    <ReportDesigner reportUrl="TestReport">
+      <RequestSettings host="http://localhost:5000/" getDesignerModelAction="DXXRD/GetDesignerModel" />
+    </ReportDesigner>       
+  )
 }
 
 export default App
