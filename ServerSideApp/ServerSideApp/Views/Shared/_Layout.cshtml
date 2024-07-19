@@ -4,8 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ServerSideApp</title>
-    <link rel="stylesheet" href="~/css/thirdparty.bundle.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <div class="container-fluid vh-100 d-flex flex-column">
@@ -21,9 +19,6 @@
                         <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ReportDesigner">Report Designer</a>
                             </li>
                         </ul>
                     </div>
@@ -41,8 +36,6 @@
                 <p>&copy; @DateTime.Now.Year - ServerSideApp</p>
             </div>
         </footer>
-        <script src="~/js/site.thirdparty.bundle.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
         @RenderSection("Scripts", false)
     </div>   
 </body>

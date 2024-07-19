@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "devexpress-reporting-react": "24.1-stable",
+    "devexpress-reporting-react": "24.1.4",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"

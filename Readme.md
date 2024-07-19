@@ -17,7 +17,7 @@ This example incorporates the Web Report Designer into a client-side app built w
 
 ### Server
 
-In the *ServerSideApp* folder, run the following command:
+In the *ServerSideApp/ServerSideApp* folder, run the following command:
 
 
 ```
@@ -54,6 +54,22 @@ Open `http://localhost:3000/` in your browser to view the result. The applicatio
 ## More Examples
 
 * [Reporting for React - Integrate Document Viewer in React App](https://github.com/DevExpress-Examples/reporting-react-integrate-web-document-viewer)
+
+## Customization Examples
+
+This project contains code snippets used for client-side customization and reflected in our online help topics. Each code snippet is enclosed in a `page.tsx` file in a separate folder. After running the project, navigate the following locations to see the result:
+
+| Location | Description |
+| --- | --- |
+| /save-modified-report | Saves a modified report in the currently active tab. Saves all modified reports. | 
+| /manage-properties-panel | Hides or disables individual editors or sections in the **Properties panel** for the specified control type. |
+| /report-designer-api | Calls the Report Designer's `RunWizard` method to invoke New Report Wizard. |
+| /open-report | Adds a button that loads a specified report. |
+| /save-report | Adds a button that saves the current report. |
+
+
+
+
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 

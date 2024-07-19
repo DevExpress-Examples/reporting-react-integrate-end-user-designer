@@ -1,4 +1,6 @@
-﻿using DevExpress.AspNetCore.Reporting.QueryBuilder;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using DevExpress.AspNetCore.Reporting.QueryBuilder;
 using DevExpress.AspNetCore.Reporting.QueryBuilder.Native.Services;
 using DevExpress.AspNetCore.Reporting.ReportDesigner;
 using DevExpress.AspNetCore.Reporting.ReportDesigner.Native.Services;
@@ -7,10 +9,8 @@ using DevExpress.AspNetCore.Reporting.WebDocumentViewer.Native.Services;
 using DevExpress.DataAccess.Sql;
 using DevExpress.XtraReports.Web.ReportDesigner.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace  ServerSideApp.Controllers {
+namespace ServerSideApp.Controllers {
     public class CustomReportDesignerController : ReportDesignerController {
         public CustomReportDesignerController(IReportDesignerMvcControllerService controllerService) : base(controllerService) {
         }
