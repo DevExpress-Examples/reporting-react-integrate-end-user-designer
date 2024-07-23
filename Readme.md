@@ -61,6 +61,7 @@ This project contains code snippets used for client-side customization and refle
 
 | Location | Description |
 | --- | --- |
+| /client-side-api | Performs some client-side actions.
 | /save-modified-report | Saves a modified report in the currently active tab. Saves all modified reports. | 
 | /manage-properties-panel | Hides or disables individual editors or sections in the **Properties panel** for the specified control type. |
 | /report-designer-api | Calls the Report Designer's `RunWizard` method to invoke New Report Wizard. |
