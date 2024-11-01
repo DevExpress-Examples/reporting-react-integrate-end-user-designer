@@ -1,6 +1,10 @@
 'use client';
-import ReportDesigner, { Callbacks, RequestOptions} from 'devexpress-reporting-react/dx-report-designer';
-import {ActionId } from 'devexpress-reporting/dx-webdocumentviewer';
+import dynamic from 'next/dynamic'
+import Callbacks from 'devexpress-reporting-react/dx-report-designer/options/Callbacks'
+import RequestOptions from 'devexpress-reporting-react/dx-report-designer/options/RequestOptions';
+import {ActionId } from 'devexpress-reporting/viewer/constants';
+const ReportDesigner = dynamic(() => import('devexpress-reporting-react/dx-report-designer'), {ssr: false})
+
 
 function App() {
   const onTabChanged = ({ args }: { args: any }): void => {

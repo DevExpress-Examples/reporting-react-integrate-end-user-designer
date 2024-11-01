@@ -1,9 +1,12 @@
 'use client';
+import dynamic from 'next/dynamic'
 import React from 'react'
-import ReportDesigner, { RequestOptions, DxReportDesignerRef } from 'devexpress-reporting-react/dx-report-designer';
+import  {  DxReportDesignerRef } from 'devexpress-reporting-react/dx-report-designer';
+import RequestOptions from 'devexpress-reporting-react/dx-report-designer/options/RequestOptions';
+const ReportDesigner = dynamic(() => import('devexpress-reporting-react/dx-report-designer'), {ssr: false})
 
 function App() {
-  const designerRef = React.useRef<DxReportDesignerRef>();
+  const designerRef = React.useRef<DxReportDesignerRef>(null);
 
   function doOpenReport() {
     designerRef.current?.instance().OpenReport("XtraReport1");
