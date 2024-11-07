@@ -1,5 +1,7 @@
 'use client';
-import ReportDesigner, { RequestOptions  } from 'devexpress-reporting-react/dx-report-designer';
+import dynamic from 'next/dynamic'
+import RequestOptions from 'devexpress-reporting-react/dx-report-designer/options/RequestOptions';
+const ReportDesigner = dynamic(() => import('devexpress-reporting-react/dx-report-designer'), {ssr: false})
 
 function App() {
   return (
