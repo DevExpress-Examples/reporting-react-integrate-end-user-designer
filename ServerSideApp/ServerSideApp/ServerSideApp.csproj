@@ -1,6 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <DefaultItemExcludes>Reports\**</DefaultItemExcludes>
   </PropertyGroup>
   <ItemGroup>
@@ -44,8 +45,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.114.4" />
-    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="24.1.*" />
-    <PackageReference Include="DevExpress.Drawing.Skia" Version="24.1.*" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="24.2.*" />
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="24.2.*" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\css\" />
