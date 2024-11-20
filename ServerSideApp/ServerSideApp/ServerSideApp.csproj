@@ -44,8 +44,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.114.4" />
-    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="24.1.*" />
-    <PackageReference Include="DevExpress.Drawing.Skia" Version="24.1.*" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="24.1.*-*" />
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="24.1.*-*" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\css\" />
