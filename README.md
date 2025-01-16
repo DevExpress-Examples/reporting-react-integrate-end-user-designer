@@ -1,10 +1,9 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/229729146/24.2.1%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848271)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Reporting for React - Add a Web Report Designer to a React App
+# Reporting for React - Add a Web Report Designer to a React App (Vite)
 
 This example incorporates the Web Report Designer into a client-side app built with React. The example consists of two parts:
 
@@ -40,14 +39,12 @@ Open your browser and navigate to the URL specified in the command output to see
 
 ## Files to Review
 
-- [page.tsx](react-report-designer/app/page.tsx)
+- [page.tsx](react-report-designer/src/App.tsx)
 - [Program.cs](ServerSideApp/ServerSideApp/Program.cs)
 - [ReportingControllers.cs](ServerSideApp/ServerSideApp/Controllers/ReportingControllers.cs)
 
 ## Documentation
-
-- [Create a React Application with Web Report Designer](https://docs.devexpress.com/XtraReports/119339)
-- [Report Designer Server-Side Configuration (ASP.NET Core)](https://docs.devexpress.com/XtraReports/400196)
+- [Create a React Application with Web Report Designer](https://docs.devexpress.com/XtraReports/405327)
 
 ## More Examples
 
