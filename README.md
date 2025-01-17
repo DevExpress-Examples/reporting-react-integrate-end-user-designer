@@ -40,9 +40,9 @@ Open your browser and navigate to the URL specified in the command output to see
 
 ## Files to Review
 
-- [page.tsx](react-report-designer/src/App.tsx)
-- [Program.cs](ServerSideApp/ServerSideApp/Program.cs)
-- [ReportingControllers.cs](ServerSideApp/ServerSideApp/Controllers/ReportingControllers.cs)
+- [App.tsx](react-report-designer/src/App.tsx)
+- [Program.cs](ServerApp/Program.cs)
+- [ReportingControllers.cs](ServerApp/Controllers/ReportingControllers.cs)
 
 ## Documentation
 - [Create a React Application with Web Report Designer](https://docs.devexpress.com/XtraReports/405327)
