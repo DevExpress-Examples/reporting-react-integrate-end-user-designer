@@ -8,7 +8,7 @@ function App() {
 
   return (
     <ReportViewer reportUrl="TestReport">
-      <RequestOptions host="https://localhost:5001/" invokeAction="DXXRDV" />
+      <RequestOptions host="http://localhost:5000/" invokeAction="DXXRDV" />
     </ReportViewer>        
   )
 }
