@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "devexpress-reporting-react": "^24.2.3",
+    "devexpress-reporting-react": "26.1-stable",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
